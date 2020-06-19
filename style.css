@@ -1,0 +1,567 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+
+/* alternate: rgb(68, 150, 140)  gs*/
+/* rgb(114, 250, 234) bs*/
+
+}
+/* Mobile version */
+@media only screen and (max-width: 400px){
+    .nav{
+        font-size: 12px;
+    }
+
+ 
+    .intro{
+        display: flex;
+        width: 100%;
+        margin-top: 100px;
+        flex-direction: column;
+        justify-content: center;
+        color: rgb(114, 250, 234);
+        text-align: center;
+
+        
+        
+    }
+    .intro-txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: rgb(0, 199, 176);
+    }
+    #name{
+        font-family: 'Righteous', cursive;
+        font-weight: 300;
+        
+    }
+    #txt1{
+        width: 100%;
+        font-size: 30px;
+        animation: fadein 5.5s linear 0s 1 normal forwards;
+        text-align: center;
+        align-self: center;
+        /* margin-top: 10px; */
+
+    }
+    #txt2{
+        display: flex;
+        font-size: 40px;
+        margin-top: 50px;
+        flex-direction: column;
+        justify-content: center;
+        
+
+    
+    }
+    #txt3{
+        font-size: 20px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .intro-img{
+        display: none;
+        width: 0%;
+    }
+    #img{
+        width: 0%;
+    }
+    
+    .skills-img{
+        display: none;
+    }
+    .skills-graph{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: 20px;
+        
+    }
+    .insta, .github, .linkedin{
+        display: flex;
+        width: 10%;
+        justify-content: center;
+        overflow: hidden;
+        margin-right: 20px;
+    }
+    .skills-page{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        
+    }
+    
+    
+
+}
+
+/* Tablet version */
+@media only screen and (min-width: 401px) and 
+(max-width: 960px){
+    .nav{
+        font-size: 15px;
+    }
+    .intro-img{
+        display: flex;
+        width: 40%;
+        height: 500px;
+        overflow: hidden;
+        margin-top: 40px;
+    
+    }
+    
+    #img{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .intro{
+        display: flex;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        color: rgb(114, 250, 234);
+        
+    }
+    .intro-txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        text-align: center;
+        align-self: center;
+        color: rgb(0, 199, 176);
+    }
+    #name{
+        font-family: 'Righteous',cursive;
+        font-weight: 300;
+        
+    }
+    #txt1{
+        font-size: 20px;
+        animation: fadein 5.5s linear 0s 1 normal forwards;
+    
+    }
+    #txt2{
+        font-size: 40px;
+        margin-top: 10px;
+    
+    }
+    #txt3{
+        font-size: 20px;
+    
+    }
+    .skills-img{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        overflow: hidden;
+        align-items: center;
+    }
+    .skills-img img{
+        width: 130%;
+    
+    }
+    .skills-graph{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 30%;
+        font-size: 20px;
+        
+    }
+    .insta, .github, .linkedin{
+        display: flex;
+        width: 5%;
+        justify-content: center;
+        overflow: hidden;
+        margin-right: 20px;
+    }
+    .skills-page{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        
+    }
+
+} 
+
+/* Desktop Version */
+@media only screen and (min-width: 961px){
+    .intro-img{
+        display: flex;
+        width: 40%;
+        height: 500px;
+        overflow: hidden;
+        margin-top: 40px;
+    
+    }
+    
+    #img{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .intro{
+        display: flex;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        color: rgb(114, 250, 234);
+        
+    }
+    .intro-txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        text-align: center;
+        align-self: center;
+        color: rgb(0, 199, 176);
+    }
+    #name{
+        font-family: 'Righteous', cursive;
+        font-weight: 300;
+        
+    }
+    #txt1{
+        font-size: 20px;
+        animation: fadein 5.5s linear 0s 1 normal forwards;
+    
+    }
+    #txt2{
+        font-size: 40px;
+        margin-top: 10px;
+    
+    }
+    #txt3{
+        font-size: 20px;
+    
+    }
+    .skills-img{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        overflow: hidden;
+        align-items: center;
+    }
+    .skills-img img{
+        width: 130%;
+    
+    }
+    .skills-graph{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 30%;
+        font-size: 20px;
+        
+    }
+    .insta, .github, .linkedin{
+        display: flex;
+        width: 3%;
+        justify-content: center;
+        overflow: hidden;
+        margin-right: 20px;
+    }
+    .skills-page{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        
+    }
+
+}
+
+
+#name,.skills-page > p, .projects > p, .skills-graph
+.html,.css,.js,.bootstrap,.projects,.about > p:first-child,
+.contact-text> p:first-child,.skills-graph>p
+{
+   
+    color: rgb(0, 199, 176);
+
+}
+
+.nav > div > a, #txt3, .about, .contact, .footer{
+    color: white
+}
+
+
+.site{
+    background-color: black;
+}
+
+
+/* View Port */
+.viewport{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    background-color: black;
+    align-items: center;
+    
+}
+
+/* Navigation Bar */
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    position: fixed;
+    height: 50px;
+    color: rgb(114, 250, 234); 
+    background-color: rgb(19, 17, 17);
+    text-decoration: none;
+    border: 1px solid 
+    rgb(114, 250, 234);
+    border-radius: 10px;
+
+}
+
+/* > sign use to access real child 
+(not grand child) of parent*/
+.nav > div:nth-last-of-type(1){
+    margin-right: 0px;
+}
+/* Cant set link text properties by defining 
+them in parent class but we can do so in case of text */
+.nav > div > a{
+    text-decoration: none;
+
+}
+
+.nav > div:first-of-type a{ 
+    color: rgb(114, 250, 234);
+    border-bottom: 1px solid rgb(114, 250, 234);
+}
+
+
+
+
+
+
+/* viewport -> intro -> intro-txt  */
+@keyframes fadein{
+    0% {color: black;}
+    
+    100% {color:  rgb(114, 250, 234);
+        /* text-shadow: 2px 2px rgb(66, 66, 66); */
+    }
+}
+
+/* skills */
+.skills-page > p, .projects > p{
+    align-self: center;
+    font-size: 40px ;
+    border-bottom: 1px solid rgb(68, 150, 140);
+    margin-top: 70px;
+}
+.skills-page-content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.skills-graph > p{
+   margin-top: auto;
+
+}
+
+.skills-page-title{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    width: 100%; 
+    background-color: rgb(226, 224, 224);
+    margin-bottom: 10px;
+    border: 1px groove rgb(114, 250, 234);
+    border-radius: 10px;
+    box-shadow: 2px 0px 2px rgb(66, 66, 66);
+    overflow: hidden;
+    height: 20px;
+    align-items: center;
+         
+}
+
+.skills {
+    width: 100%;
+    text-align: right;
+    height: 20px;
+    
+  }
+
+.html,.css,.js,.bootstrap{
+    background-color:rgb(114, 250, 234);
+    border-radius: 10px;
+    box-shadow: 4px 0px 1px rgb(66, 66, 66);
+    font-size: 15px;
+    
+}
+
+.html{
+    width: 95%;
+}
+.css{
+    width: 95%;
+}
+.js{
+    width: 85%
+}
+.bootstrap{
+    width: 85%
+}
+.projects > p{
+    margin-bottom: 50px;
+
+}
+.projects-sample{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project-1,.project-2{
+    width: 40%;
+    overflow: hidden;
+    border: 2px solid rgb(102, 218, 204);
+    border-radius: 5%;
+}
+
+#p2, #p1{
+    width: 100%;
+    height: 100%;
+
+    
+
+}
+
+/* about */
+.about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    
+}
+.about > p:first-child{
+    font-size: 40px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(68, 150, 140);
+
+}
+.about a{
+    
+    color: rgb(114, 250, 234);
+}
+
+/* contact */
+.contact{
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin-top: 100px;   
+
+}
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%
+}
+.contact-text> p:first-of-type{
+    font-size: 40px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(68, 150, 140);
+    text-align: left;
+    width: fit-content;
+}
+.contact-img{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    width: 60%
+}
+.mail{
+    width: 100px;
+    border: 2px solid rgb(114, 250, 234);
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 6px rgb(31, 105, 97);
+    transition: all 0.2s ease-in-out;
+    background-color: black;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(114, 250, 234);
+    outline: none;
+   
+}
+.mail:active{
+    transform: translateY(5px);
+    box-shadow: 0px 0px rgb(31, 105, 97);
+    border: 2px solid black;
+    outline: none;
+}
+
+
+#cimg{
+    width: 200%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+.social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    margin-top: 100px;
+    
+
+}
+
+.social img{
+    width: 100%;
+
+}
+.insta{
+    margin-right: 0px;
+}
+
+
+
+/* Footer */
+.footer{
+    display: flex;
+    width: 100%;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid rgb(102, 218, 204);
+    font-size: 10px;
+    letter-spacing: 2px;
+
+}
